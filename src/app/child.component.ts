@@ -1,5 +1,5 @@
 import { NgIf } from '@angular/common';
-import { Component, Input, forwardRef } from '@angular/core';
+import { Component, Input, forwardRef, inject } from '@angular/core';
 import { ParentComponent } from './parent.component';
 
 @Component({
@@ -16,4 +16,6 @@ import { ParentComponent } from './parent.component';
 })
 export class ChildComponent {
   @Input() hideParent?: boolean;
+  private readonly parent = inject(forwardRef(() => ParentComponent));
+  private readonly logged = console.log(`Parent is`, this.parent);
 }
