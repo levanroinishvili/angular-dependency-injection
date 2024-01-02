@@ -30,12 +30,16 @@
     "@typescript-eslint/eslint-plugin": "6.13.1",
     "@typescript-eslint/parser": "6.13.1",
     "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "prettier": "^3.1.1",
+    "prettier-eslint": "^16.2.0",
     "typescript": "~5.2.2"
   },
   "pathMappings": {},
@@ -49,11 +53,35 @@
       },
       {
         "file": ".eslintrc.json",
-        "hash": "18272873057940234145"
+        "hash": "14013039154009813853"
       },
       {
         "file": ".gitignore",
         "hash": "13044518069027839699"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "8592344598475665282"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "9689959697990929112"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "10504985328258768459"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "12921459558859358097"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "13044518069027839699"
+      },
+      {
+        "file": ".prettierrc.json",
+        "hash": "7976472349743959060"
       },
       {
         "file": ".vscode/extensions.json",
@@ -62,6 +90,10 @@
       {
         "file": ".vscode/launch.json",
         "hash": "17038929134016848735"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "10893701766545065002"
       },
       {
         "file": ".vscode/tasks.json",
@@ -77,11 +109,11 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "15626332407656493600"
+        "hash": "12128246148313342459"
       },
       {
         "file": "package.json",
-        "hash": "16340868770246791610"
+        "hash": "4043530130038119939"
       },
       {
         "file": "server.ts",
